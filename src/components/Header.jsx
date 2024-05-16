@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { HiEllipsisVertical, HiMiniBars3BottomRight } from "react-icons/hi2";
 import { GifState } from "../context/GifContext";
 import GifSearch from "./GifSearch";
+
+import { HiEllipsisVertical, HiMiniBars3BottomRight } from "react-icons/hi2";
 
 const Header = () => {
   const [categories, setCategories] = useState([]);
